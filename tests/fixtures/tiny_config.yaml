@@ -1,0 +1,12 @@
+rfc_id: rfc9999
+rfc_title: "Tiny Test Protocol"
+
+priority_sections:
+  - "4"
+
+exclude_sections:
+  - "5"
+
+page_footer_patterns:
+  - 'Author\s+Standards Track\s+\[Page \d+\]'
+  - 'RFC \d+\s+TTP\s+\w+ \d+'

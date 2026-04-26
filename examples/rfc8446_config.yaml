@@ -1,0 +1,23 @@
+rfc_id: rfc8446
+rfc_title: "TLS 1.3"
+
+priority_sections:
+  - "6.2"
+  - "9.2"
+  - "9.3"
+
+exclude_sections:
+  - "10"
+  - "11"
+  - "12"
+
+reference_patterns:
+  - pattern: 'Section (\d+(?:\.\d+)*)'
+    group: 1
+  - pattern: 'Appendix ([A-Z](?:\.\d+)*)'
+    group: 1
+    prefix: "appendix-"
+
+page_footer_patterns:
+  - 'Rescorla\s+Standards Track\s+\[Page \d+\]'
+  - 'RFC \d+\s+TLS\s+\w+ \d+'

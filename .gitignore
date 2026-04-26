@@ -1,0 +1,26 @@
+# Built knowledge bases (generated output)
+kb/
+
+# RFC text files (users provide their own)
+*.txt
+
+# Generated context/dump output
+context_*.md
+full_*.md
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Testing
+.pytest_cache/
+
+# IDE
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
